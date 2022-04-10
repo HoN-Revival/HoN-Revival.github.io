@@ -81,6 +81,9 @@ following project: [HoN Installer](https://github.com/HoN-Revival/HoN-Installer)
 | ❌ | 0.3.1.1|
 | ❌ | 0.3.2.0|
 | ✔️ | 0.3.3.0|
+| ❌ | 0.3.4.0|
+| ❌ | 0.3.5.0|
+| ❌ | 0.3.6.0|
 
 ##### Release Versions
 
