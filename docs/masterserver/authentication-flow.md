@@ -1,3 +1,9 @@
+---
+layout: default
+title: Authentication Flow
+parent: MasterServer
+---
+
 # MasterServer authentication flow
 
 HoN uses a variation of [SRP](https://en.wikipedia.org/wiki/Secure_Remote_Password_protocol).

@@ -1,3 +1,8 @@
+---
+layout: default
+title: HoN Versions
+---
+
 ## HoN Versions
 
 There is an ongoing project to back up every available HoN version for preservation.
