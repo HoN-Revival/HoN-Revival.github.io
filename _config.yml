@@ -3,8 +3,6 @@ plugins:
 relative_links:
   enabled: true
   collections: true
-include:
-  - README.md
 remote_theme: just-the-docs/just-the-docs
 plugins:
   - jekyll-readme-index
