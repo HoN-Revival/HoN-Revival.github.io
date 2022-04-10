@@ -8,7 +8,7 @@ title: HoN Versions
 There is an ongoing project to back up every available HoN version for preservation.
 You can see the status of the project below.
 
-The backups are currently hosted in a google drive [folder]{https://drive.google.com/drive/u/0/folders/1yWF0Cktu5yUTIupvmCJNTamIIHRz2e4F)
+The backups are currently hosted in a google drive [folder](https://drive.google.com/drive/u/0/folders/1yWF0Cktu5yUTIupvmCJNTamIIHRz2e4F)
 
 For a custom installer to install any backed up version, you can use the
 following project: [HoN Installer](https://github.com/HoN-Revival/HoN-Installer)
