@@ -3,6 +3,7 @@ layout: default
 title: Master Server
 has_children: true
 permalink: docs/masterserver
+nav_order: 2
 ---
 
 # Master Server

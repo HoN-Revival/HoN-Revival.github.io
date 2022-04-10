@@ -1,7 +1,7 @@
 ---
 layout: default
-title: AuthenticationFlow
-parent: MasterServer
+title: Authentication Flow
+parent: Master Server
 ---
 
 # MasterServer authentication flow

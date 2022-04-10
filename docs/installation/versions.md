@@ -1,6 +1,6 @@
 ---
 layout: default
-title: HoNVersions
+title: HoN Client Versions
 has_children: true
 ---
 

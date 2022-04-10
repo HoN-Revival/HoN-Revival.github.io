@@ -1,7 +1,8 @@
 ---
 layout: default
-title: Authentication Flow
-parent: MasterServerEndpoints
+title: patcher/patcher.php
+parent: PHP Endpoints
+grand_parent: Master Server
 ---
 
 ## patcher/patcher.php

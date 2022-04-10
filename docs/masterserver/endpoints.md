@@ -1,7 +1,7 @@
 ---
 layout: default
-title: MasterServerEndpoints
-parent: MasterServer
+title: PHP Endpoints
+parent: Master Server
 has_children: true
 ---
 
