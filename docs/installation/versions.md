@@ -1,6 +1,7 @@
 ---
 layout: default
-title: HoN Versions
+title: HoNVersions
+has_children: true
 ---
 
 ## HoN Versions

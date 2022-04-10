@@ -1,9 +1,8 @@
 ---
 layout: default
-title: Master Server Endpoints
-parent: Master Server
+title: MasterServerEndpoints
+parent: MasterServer
 has_children: true
-permalink: docs/masterserver
 ---
 
 ## Master Server Endpoints
