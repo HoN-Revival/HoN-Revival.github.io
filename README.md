@@ -42,7 +42,7 @@ NOTE: You can still use the same HoN client with the modified `.dll` files
 as your main client to connect to the server. But if you want to keep your
 primary install unmodified, then re-install HoN to a separate directory and
 and use that one as the 'server' directory and place the modified DLLs there.
-However for the sake of simplicity, I will use a typical `C` drive install
+However for the sake of simplicity, I will use a typical `C:` drive install
 path in the examples below.
 
 NOTE: The server uses UDP port `11235` by default. This port may need to
