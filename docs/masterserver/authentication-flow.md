@@ -155,14 +155,14 @@ S2_SRP_MAGIC2 = "taquzaph_?98phab&junaj=z=kuChusu"
 I imagine these values were chosen randomly. I'm not entirely sure how folks discovered these,
 but I believe it was by using a debugger in the `libcrypto-1_1.dll`.
 
-The `salt2` is a constant that is sent down by the server:
+The `salt2` is a constant that is sent down by the server. For example:
 
 ```
 S2_SALT2 = 'p^^^&bjRlXi4B=A1y.@Vz)'
 ```
 
-I'm not entirely sure why it's being sent from the server if it's a constant. As it would have
-had to have been used when computing `v` during registration. ¯\\_(ツ)_/¯
+This value is created during registration and stored on the server along with `I`, `salt` (`s`
+for the SRP), and `v`.
 
 The hash function then boils down to this:
 
