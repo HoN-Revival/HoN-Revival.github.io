@@ -46,15 +46,19 @@ This will redirect it back to localhost for testing.)
 
 ## Client <-> Server interaction
 
-The client first connects to the masterserver on port `80` via TCP.
+The server is basically just a REST API written in PHP. The client sends HTTP
+[POST](https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods/POST) requests
+to the server and the server responds. Since HTTP is relatively stateless, the
+server provides the client with a `cookie` value to identify itself for
+subsequent requests upon login.
 
-The client then begins the [authentication flow](authentication-flow.md).
+The client begins the [authentication flow](authentication-flow.md).
 
 After authentication, the masterserver provides the client with the IP
 and port for the chat server (which the client then connects to using TCP).
 
 Throughout the session, the client uses numerous HTTP requests over the same
-port `80` connection. These are [POST](https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods/POST)
+port `80` connection. These are 
 requests that target `.php` endpoints.
 
 The function that the PHP endpoint should respond to is set using
