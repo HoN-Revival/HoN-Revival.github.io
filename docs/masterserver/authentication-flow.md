@@ -17,8 +17,9 @@ programming language.
 
 I'll discuss SRP in a nutshell, simply put. And then I'll dive into HoN's implementation details.
 
-For digging in to example implementation details, I recommend the python `srp` library. It's fairly
-straightforward: https://github.com/cocagne/pysrp/blob/master/srp/_pysrp.py
+For digging in to example implementation details, I recommend the python
+[srp](https://github.com/cocagne/pysrp/blob/master/srp/_pysrp.py) library source code It's fairly
+straightforward: 
 
 It actually computes a lot of the values as soon as they are available (rather than doing it
 1 step at a time like in the standford document. But it doesn't matter that much.)
@@ -161,7 +162,7 @@ S2_SALT2 = 'p^^^&bjRlXi4B=A1y.@Vz)'
 ```
 
 I'm not entirely sure why it's being sent from the server if it's a constant. As it would have
-had to have been used when computing `v` during registration. ¯\_(ツ)_/¯
+had to have been used when computing `v` during registration. ¯\\_(ツ)_/¯
 
 The hash function then boils down to this:
 
@@ -214,7 +215,7 @@ Another option might be if it stores their complicated password hash, as describ
 explain why their password hashing is so extreme. Although even then it's not ideal as it's still a
 hash (of a hash of a hash) derived from the password itself (especially now that the magic and `salt2`
 constants are known). Although even assuming that, `I` is still needed to confirm `M1` from the
-client from what I can tell. And just . ¯\_(ツ)_/¯
+client from what I can tell. And just . ¯\\_(ツ)_/¯
 
 Or maybe it's just a quirk of the python `srp` library that I was using to test all of this?
 
@@ -261,7 +262,7 @@ part of the SRP.
 It also sends a `SysInfo=` but it's unclear what that's used for. My first thought was to
 act like an identification (like a 'cookie' would be) to track sessions across the two
 HTTP calls. But the following call to `srpAuth` (explained below) does not seem to match.
-¯\_(ツ)_/¯
+¯\\_(ツ)_/¯
 
 The server then sends its `salt`, `salt2` (as used to do the password hash on the cleint),
 and `B` to the client.
