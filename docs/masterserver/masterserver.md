@@ -28,21 +28,18 @@ And more.
 The server uses port `80`. The official endpoint was
 `masterserver.naeu.heroesofnewerth.com`, but will be offline in June 2022.
 
-At the time of this writing, it's not clear to me where in the client the masterserver
-is set. In the latest version of HoN, it is specified in a file called `init.cfg` which
-is under `resources0.s2z/init.cfg`. However I tried changing this to point back to
-`127.0.0.1` (localhost), but the game still connected to the official servers. More
-investigation is needed.
+To specify the custom URL or IP address to use with HoN, simply make
+a shortcut of the game and add the `-masterserver IP:port`.
 
-(As a workaround for testing, on windows you can use the
-`C:\Windows\System32\drivers\etc\hosts` file to force HoN to redirect. E.g. add
-the following entry:
+For example, if I want to connect to the `localhost` at port `666`,
+I created a shortcut with the following info:
 
 ```
-127.0.0.1 masterserver.naeu.heroesofnewerth.com
+"C:\Program Files\Heroes of Newerth x64\hon_x64.exe" -masterserver 127.0.0.1:666
 ```
 
-This will redirect it back to localhost for testing.)
+Then you can just use this custom shortcut to launch HoN connecting to a specific
+master server address.
 
 ## Client <-> Server interaction
 
