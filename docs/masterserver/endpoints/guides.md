@@ -1,7 +1,8 @@
 ---
 layout: default
 title: Guide Endpoints
-parent: Master Server
+parent: PHP Endpoints
+grand_parent: Master Server
 ---
 # Guides
 
