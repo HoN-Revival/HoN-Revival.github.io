@@ -4,6 +4,7 @@ title: Guide Endpoints
 parent: PHP Endpoints
 grand_parent: Master Server
 ---
+
 # Guides
 
 Guides can be created using the HoN website. Any private servers will need to create their own UI.
@@ -18,6 +19,11 @@ In game the guides can be viewed in a few locations:
 
 1. The learnitorium
 2. In game, this is requested when opening up the shop.
+
+The starting item gold for the guides is fixed at `603`.
+
+"Premium" guides authored by `_WhatYouGot` are going to be used as seed data for any private servers, since
+he has given us his permission.
 
 ## f=get_guide_list_filtered
 
