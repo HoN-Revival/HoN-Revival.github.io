@@ -1,5 +1,15 @@
 ## f=get_guide_list_filtered
 
+Returns a list of 20 guides, ranked by the filtered percentage.
+
+The ordering goes:
+
+1. Default guide (if any is set)
+2. Premium guide(s)
+3. The rest ranked in order of upvote percentage.
+
+It's unclear if/how `favorite` guides filter in, if at all.
+
 ```
 a:6:{s:6:"errors";s:0:"";s:7:"success";i:1;s:10:"guide_list";s:1965:"415077|05/09/21 03:18:47pm|happyasthma|happyasthma\'s legendary 90% win|is_def|not_fav|0.98|is_yours|0`438490|06/13/21 09:00:53pm|_WhatYouGot|_WhatYouGot\'s Parallax Guide|not_def|not_fav|0.97|not_yours|1`401767|12/16/15 01:56:16am|Asian00000|Midwars Parallax Guide|not_def|not_fav|1.00|not_yours|0`437349|02/05/21 08:56:18pm|_Tontuen_|_Tontuen_\'s Parallax Guide|not_def|not_fav|0.99|not_yours|0`404897|05/28/16 04:38:24am|SactoMentor|2000+MMR parallax [SactoMentor]|not_def|not_fav|0.99|not_yours|0`424541|06/21/20 04:07:52am|Zlapped|Zlapped\'s Parallax Guide|not_def|not_fav|0.99|not_yours|0`431632|05/08/19 08:28:10am|slyonez|slyonez\'s Parallax Guide|not_def|not_fav|0.98|not_yours|0`431580|10/17/20 02:46:05pm|__Paradise__|^:^cParadise ^mParallax ^oMid|not_def|not_fav|0.98|not_yours|0`405107|06/05/15 06:47:18pm|JukeGalore|Middle win guaranteed :)|not_def|not_fav|0.98|not_yours|0`404563|05/23/15 05:12:00am|BACKSLASH_0|BACKSLASH_0\'s Parallax Guide|not_def|not_fav|0.98|not_yours|0`433608|09/05/21 11:33:12pm|CtrlAltDFeat|CtrlAltDfeat\'s Parallax Guide|not_def|not_fav|0.98|not_yours|0`404461|12/11/15 03:58:51am|_The_Batman|GzLvee\'s Parallax Guide|not_def|not_fav|0.97|not_yours|0`427193|12/13/17 05:03:25am|DaZniZn|DaZniZn\'s Parallax Guide|not_def|not_fav|0.97|not_yours|0`402687|10/24/17 12:17:18pm|Aruaua|Aruaua\'s Mid Parallax Guide|not_def|not_fav|0.97|not_yours|0`429215|01/19/19 03:43:13am|JabamiYumeko|^R^:^%969PARALLAX GUIDE|not_def|not_fav|0.97|not_yours|0`405256|05/08/17 06:58:49pm|Mr_SolariOoM|_SkiZ_\'s Parallax Guide|not_def|not_fav|0.97|not_yours|0`415717|07/03/16 07:17:30am|Glax|Glax\'s Parallax Guide|not_def|not_fav|0.96|not_yours|0`406459|06/27/15 08:00:34am|I_m_Kris|I_m_Kris\'s Parallax Guide|not_def|not_fav|0.96|not_yours|0`405726|06/10/15 11:27:13pm|iMonkeyMan|iMonkeyMan\'s Parallax Guide|not_def|not_fav|0.96|not_yours|0`409112|03/09/16 07:38:32pm|RawsLy_|RawsLy_\'s Parallax the Hard-Carry Gu|not_def|not_fav|0.95|not_yours|0";s:8:"hosttime";s:7:"5963205";s:16:"vested_threshold";i:5;i:0;b:1;}
 ```
