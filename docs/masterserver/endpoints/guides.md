@@ -21,6 +21,14 @@ In game the guides can be viewed in a few locations:
 
 ## f=get_guide_list_filtered
 
+### Request
+
+```
+f=get_guide_list_filtered&account=782203&cookie=886da9f0da2017899f8ae06e111df51f&hero=Hero_Parallax&hosttime=5963205
+```
+
+### Response
+
 Returns a list of 20 guides, ranked by the filtered percentage.
 
 The ordering goes:
@@ -70,6 +78,14 @@ Individual guide example:
 Requests a specific guide for a specific user's account
 
 ### Typical
+
+#### Request
+
+```
+f=get_guide&account=9146854&cookie=bd805dda770577426fa4ebf4b9c38b52&hero=Hero_MasterOfArms&hosttime=5772605&gid=408866
+```
+
+#### Response
 
 ```
 a:22:{s:6:"errors";s:0:"";s:7:"success";i:1;s:8:"datetime";s:19:"07/14/17 07:08:35pm";s:11:"author_name";s:6:"Shades";s:13:"hero_cli_name";s:17:"Hero_MasterOfArms";s:10:"guide_name";s:20:"Best MoA guide 1800+";s:9:"hero_name";s:14:"Master Of Arms";s:7:"default";i:0;s:8:"favorite";i:0;s:6:"rating";s:4:"1.00";s:5:"thumb";s:6:"noVote";s:7:"premium";s:1:"0";s:7:"i_start";s:103:"Item_RunesOfTheBlight|Item_DuckBoots|Item_DuckBoots|Item_MinorTotem|Item_MinorTotem|Item_HealthPotion||";s:8:"i_laning";s:59:"Item_EnhancedMarchers|Item_PowerSupply|Item_Lightning1|||||";s:6:"i_core";s:113:"Item_ManaBurn1|Item_Weapon3|Item_Evasion|Item_Dawnbringer|Item_Pierce|Item_LifeSteal4|Item_Critical1|Item_Damage9";s:8:"i_luxury";s:54:"Item_Sasuke|Item_Protect|Item_Immunity|Item_Freeze||||";s:5:"abilQ";s:559:"Ability_MasterOfArms3|Ability_MasterOfArms1|Ability_MasterOfArms3|Ability_MasterOfArms2|Ability_MasterOfArms3|Ability_MasterOfArms4|Ability_MasterOfArms3|Ability_MasterOfArms2|Ability_MasterOfArms2|Ability_MasterOfArms2|Ability_MasterOfArms4|Ability_MasterOfArms1|Ability_MasterOfArms1|Ability_MasterOfArms1|Ability_AttributeBoost|Ability_MasterOfArms4|Ability_AttributeBoost|Ability_AttributeBoost|Ability_AttributeBoost|Ability_AttributeBoost|Ability_AttributeBoost|Ability_AttributeBoost|Ability_AttributeBoost|Ability_AttributeBoost|Ability_AttributeBoost";s:9:"txt_intro";s:161:"Master of Arms is a carry with incredibly high attack speed. Try to play defensively early on until you get your core items, then proceed to push with your team.";s:9:"txt_guide";s:0:"";s:8:"hosttime";s:7:"5772605";s:16:"vested_threshold";i:5;i:0;b:1;}
