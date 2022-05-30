@@ -1,8 +1,7 @@
 ---
 layout: default
 title: Guide Endpoints
-parent: PHP Endpoints
-grand_parent: Master Server
+parent: Master Server
 ---
 # Guides
 
@@ -47,7 +46,7 @@ Array
 )
 ```
 
-The most important field is the `guide_list`. The guides appear to be delimited with a backtick. Within a given guide, elements are delimited with a vertical bar (|).
+The most important field is the `guide_list`. The guides appear to be delimited with a backtick. Within a given guide, elements are delimited with a vertical bar.
 
 Individual guide example:
 
