@@ -1,3 +1,24 @@
+---
+layout: default
+title: Guide Endpoints
+parent: PHP Endpoints
+grand_parent: Master Server
+---
+# Guides
+
+Guides can be created using the HoN website. Any private servers will need to create their own UI.
+
+For posterity, here are images of what guides looked like on the website. There is no way to create guide in game.
+
+![Guide webpage (viewer)](https://i.imgur.com/nABZbxN.png)
+
+![Guide webpage (editor)](https://i.imgur.com/UA4DzCN.png)
+
+In game the guides can be viewed in a few locations:
+
+1. The learnitorium
+2. In game, this is requested when opening up the shop.
+
 ## f=get_guide_list_filtered
 
 Returns a list of 20 guides, ranked by the filtered percentage.
