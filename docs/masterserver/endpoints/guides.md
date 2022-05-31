@@ -128,6 +128,10 @@ Array
 - `txt_guide` appears to never be used
 - `txt_intro` is the guide description text, with a limit of 200 characters.
 
+NOTE: The `hero_name` field is empty in some cases. It seems to be for the following fields, so it must not be used:
+
+- `Chi`, `Adrenaline`, `Apex`, `Ichor`, `Goldenvale`, `Mimix`, `Sapphire`, `Shellshock`, `Warchief`, `King Klout`
+
 
 ### Error
 
