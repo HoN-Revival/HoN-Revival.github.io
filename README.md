@@ -98,3 +98,20 @@ be in the game lobby.
 
 For other players that want to connect, they simply just need to use the
 `connect <IP>` command and they will automatically enter the lobby.
+
+### Connecting a client to custom servers
+
+#### Master Server
+
+The HoN master server can be specified as a argument to the HoN
+executable: `-masterserver <ip>:<port>`.
+
+In resource files, this is referred to by `!masterserver`.
+
+#### Web Server
+
+The HoN web server (endpoints typically on heroesofnewerth.com) can
+be specified as an argument to the HoN executable:
+`-webserver <ip>:<port>`.
+
+In resource files, this is referred to by `!hon`.
