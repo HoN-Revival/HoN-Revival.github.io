@@ -115,3 +115,9 @@ be specified as an argument to the HoN executable:
 `-webserver <ip>:<port>`.
 
 In resource files, this is referred to by `!hon`.
+
+#### Messaging Server
+
+The HoN messaging server (for system messages, such as gifted
+items from the store and holiday awards) can be specified to
+the HoN executable: `-messageserver <ip>:<port>`.
