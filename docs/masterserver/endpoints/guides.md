@@ -61,6 +61,8 @@ Array
 )
 ```
 
+NOTE: The `hosttime` from the request must be forwarded as part of the response as well.
+
 The most important field is the `guide_list`. The guides appear to be delimited with a backtick. Within a given guide, elements are delimited with a vertical bar.
 
 Individual guide example:
@@ -124,6 +126,8 @@ Array
     [0] => 1
 )
 ```
+
+NOTE: The `hosttime` from the request must be forwarded as part of the response as well.
 
 - `txt_guide` appears to never be used
 - `txt_intro` is the guide description text, with a limit of 200 characters.
@@ -200,6 +204,8 @@ Array
 )
 ```
 
+NOTE: The `hosttime` from the request must be forwarded as part of the response as well.
+
 - `set` appears to be the boolean of what value to set, even though this uses its own endpoint. `1` for true.
 
 ## f=guide_default_remove
@@ -235,6 +241,8 @@ Array
     [0] => 1
 )
 ```
+
+NOTE: The `hosttime` from the request must be forwarded as part of the response as well.
 
 - `set` appears to be the boolean of what value to set, even though this uses its own endpoint. `0` for false.
 
@@ -272,6 +280,8 @@ Array
 )
 ```
 
+NOTE: The `hosttime` from the request must be forwarded as part of the response as well.
+
 - `set` appears to be the boolean of what value to set, even though this uses its own endpoint. `1` for true.
 
 ## f=guide_favorite_remove
@@ -307,6 +317,8 @@ Array
     [0] => 1
 )
 ```
+
+NOTE: The `hosttime` from the request must be forwarded as part of the response as well.
 
 - `set` appears to be the boolean of what value to set, even though this uses its own endpoint. `0` for false.
 
@@ -349,6 +361,8 @@ Array
 )
 ```
 
+NOTE: The `hosttime` from the request must be forwarded as part of the response as well.
+
 ### Downvote
 
 ```
@@ -382,3 +396,5 @@ Array
     [0] => 1
 )
 ```
+
+NOTE: The `hosttime` from the request must be forwarded as part of the response as well.
