@@ -1,3 +1,11 @@
+---
+layout: default
+title: Chat Server
+has_children: true
+permalink: docs/chatserver
+nav_order: 3
+---
+
 # Chat Server
 
 Shout out to `theli-ua` on GitHub for capturing all this data.
