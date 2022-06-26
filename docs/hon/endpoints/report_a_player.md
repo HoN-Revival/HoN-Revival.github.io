@@ -1,3 +1,9 @@
+---
+layout: default
+title: Report a Player
+parent: Heroesofnewerth.com
+---
+
 ## /rap/report2.php
 
 This endpoint is called for reports when `cl_Rap2Enable` is `false`.

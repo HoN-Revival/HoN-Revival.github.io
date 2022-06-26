@@ -1,3 +1,10 @@
+---
+layout: default
+title: client_requester.php?f=get_match_stats
+parent: PHP Endpoints
+grand_parent: Master Server
+---
+
 # Request
 
 ```

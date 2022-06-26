@@ -1,4 +1,11 @@
-# client_requester/php?f=get_products
+---
+layout: default
+title: client_requester.php?f=get_products
+parent: PHP Endpoints
+grand_parent: Master Server
+---
+
+# get_products
 
 This appears to be a massive request when opening the shop to populate all of the
 available products.
