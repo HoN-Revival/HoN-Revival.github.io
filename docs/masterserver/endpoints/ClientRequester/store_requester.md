@@ -1,6 +1,6 @@
 ---
 layout: default
-title: client_requester.php?f=get_match_stats
+title: client_requester.php?f=store_requester.php
 parent: PHP Endpoints
 grand_parent: Master Server
 ---
