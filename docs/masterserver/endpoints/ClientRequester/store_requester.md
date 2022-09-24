@@ -39,12 +39,15 @@ account_id=9190611&category_id=0&request_code=0&page=0&cookie=f52479e4aff36eb692
     - 75 = Game Vanity -> Upgrades
     - 78 = Game Vanity -> TP Effects
     
-- `request_code`: Unknown? (0 or 1?)
+- `request_code`: Specifies the type of request
     - 0 for unset
     - 1 for browse?
     - 2 for vault?
     - 4 for purchase/gift?
+    - 5 open store to buy coins?
     - 6 for bundles?
+    - 9 for promo unit quantity?
+    - 10 for redeeming promo code
 - `product_id`: The ID of the product being purchased
 - `page`: 
 - `cookie`: The cookie from the users authentication session.
