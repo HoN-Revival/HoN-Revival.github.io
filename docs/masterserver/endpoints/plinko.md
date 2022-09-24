@@ -1,3 +1,10 @@
+---
+layout: default
+title: Plinko endpoints
+parent: PHP Endpoints
+grand_parent: Master Server
+---
+
 # Plinko
 
 ## Background
