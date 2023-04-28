@@ -6,3 +6,4 @@ relative_links:
 remote_theme: just-the-docs/just-the-docs
 plugins:
   - jekyll-readme-index
+color_scheme: dark
